@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin: 2rem 0;
+  }
+  
+  .scoreboard {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+  }
+  
+  .player-score, .computer-score {
+    background-color: #eee;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  .player-score h2, .computer-score h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .player-score p, .computer-score p {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .game-options {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+  }
+  
+  button {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #eee;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
+  .results {
+    margin-top: 2rem;
+  }
+  
+  .results h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .results p {
+    font-size: 1.5rem;
+  }
+  
+  
+  
+  
+  
+  
